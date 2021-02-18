@@ -1,0 +1,2 @@
+So, the solution is a reaaaaly crude sample of what  we used to do, in reality we had a lot of projects containing all the structure, dtos, webdriver page objects etc mapped, we'd have a separate
+project just for the Api's and webservices. Anyway i tried to comment as much as i felt it was necessary and also hide the most sensitive data i could think off. 
