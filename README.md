@@ -29,3 +29,7 @@ In order to run this you'll need the following :
    
    * The code is commented as much as possible for better understanding;
    
+## TODO 
+
+  * Change code to Net Core 5.0 
+  * Add Docker integration
