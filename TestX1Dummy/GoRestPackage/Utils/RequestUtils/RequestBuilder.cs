@@ -37,5 +37,13 @@ namespace ApiTestingX1.GoRestPackage.Helpers
             return postUserResponse;
 
         }
+
+        public MainNode DeleteUser(string uri)
+        {
+
+            MainNode deleteUserResponse = RestUtils.CallService<MainNode>(uri, Method.DELETE);
+            return deleteUserResponse;
+
+        }
     }
 }

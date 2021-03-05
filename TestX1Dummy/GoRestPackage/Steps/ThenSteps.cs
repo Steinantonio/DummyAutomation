@@ -57,13 +57,26 @@ namespace ApiTestingX1.GoRestPackage.Steps
 
                 Assert.AreEqual(dataPostResponse[i].email, fetchUsersIdList[i].email);
             }
+
         }
 
         [Then(@"I delete my created users")]
         public void ThenIDeleteMyCreatedUsers()
         {
-            
-        }
+            UserCadEndpoints userCadEndpoints = new UserCadEndpoints();
 
+            RequestBuilder requestBuilder = new RequestBuilder();
+
+            var uri = userCadEndpoints.GetUsersEndpoint();
+
+            var postUserFullResponse = context.Get<List<MainNode>>("PostResponseList");
+
+            foreach (var item in postUserFullResponse)
+            {
+                var response = requestBuilder.DeleteUser(uri + $@"/{item.data.id}") ;
+
+                Assert.IsTrue(response.code == 204);
+            }
+        }
     }
 }

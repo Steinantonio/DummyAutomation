@@ -2,37 +2,37 @@
   {
     "name": "Desafio Test1",
     "gender": "Male",
-    "email": "Desafio.challeng1@mail.com",
+    "email": "Desafio.challenged1@mail.com",
     "status": "Active"
   },
   {
     "name": "Desafio Test2",
     "gender": "Male",
-    "email": "Desafio.challeng2@mail.com",
+    "email": "Desafio.challenged2@mail.com",
     "status": "Active"
   },
   {
     "name": "Desafio Test3",
     "gender": "Male",
-    "email": "Desafio.challeng3@mail.com",
+    "email": "Desafio.challenged3@mail.com",
     "status": "Active"
   },
   {
     "name": "Desafio Test4",
     "gender": "Male",
-    "email": "Desafio.challeng4@mail.com",
+    "email": "Desafio.challenged4@mail.com",
     "status": "Active"
   },
   {
     "name": "Desafio Test5",
     "gender": "Male",
-    "email": "Desafio.challeng5@mail.com",
+    "email": "Desafio.challenged5@mail.com",
     "status": "Active"
   },
   {
     "name": "Desafio Test6",
     "gender": "Male",
-    "email": "Desafio.challeng6@mail.com",
+    "email": "Desafio.challenged6@mail.com",
     "status": "Active"
   }
 ]
