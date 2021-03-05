@@ -5,6 +5,8 @@ This project is meant to serve as a testing service for creating and posting use
 In order to run this you'll need the following : 
 
 1 - Any IDE ( Preferably Vs Studio 2019 )  > Clone the solution to any repository you want;
+    
+     * Will need to have the .net Framework installed 4.6.1 ( https://www.microsoft.com/pt-br/download/details.aspx?id=49982 ) 
 
 2 - You will need to have the following extensions installed;
 
